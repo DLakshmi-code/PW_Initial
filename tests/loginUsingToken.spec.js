@@ -194,7 +194,7 @@ await page.goto('https://rahulshettyacademy.com/client/#/dashboard/dash/')
 
   })
 
-test.only('Aborting the calls with jpeg ',async({page})=>{
+test('Aborting the calls with jpeg ',async({page})=>{
 await page.addInitScript(value=>{
     window.localStorage.setItem("token",value)
 
