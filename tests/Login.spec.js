@@ -4,7 +4,7 @@ test.beforeEach('Launching site',async({ page})=>{
   await page.goto('https://rahulshettyacademy.com/loginpagePractise/#/');
 
 })
-test('has title', async ({ page }) => {
+test('has  title as Login', async ({ page }) => {
 
   // Expect a title "to contain" a substring.
   await expect(page).toHaveTitle(/Login/);
